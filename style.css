@@ -1,0 +1,267 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: beige;
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.top {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.308);
+    font-size: 20px;
+    width: 100%;
+    margin: 50px auto;
+}
+
+.top a {
+    color: blue;
+}
+
+/* navigation */
+
+nav {
+    width: 100%;
+    height: 90px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav .logo {
+    text-align: center;
+}
+
+nav .menu {
+    width: 700px;
+}
+
+nav .menu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav .menu ul a {
+    color: red;
+    text-decoration: none;
+}
+
+nav .menu ul a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.btn button {
+    width: 250px;
+    height: 70px;
+    background-color: red;
+    border: 2px solid white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.btn button:hover {
+    color: white;
+    background-color: green;
+    text-decoration: underline;
+}
+
+.image {
+    border: 2px solid white;
+    background-image: url(images/BACKGROUN1.jpg);
+    margin: 30px auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+}
+
+.text {
+    width: 550px;
+    margin: 245px auto;
+    text-align: center;
+}
+
+#text {
+    color: green;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 4px 4px 5px yellow;
+}
+
+.centrebutton button {
+    border: 2px solid white;
+    color: white;
+    background: rgb(196, 225, 5);
+    border-radius: 15px;
+    font-size: 10px;
+    width: 120px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 125px;
+}
+
+.centrebutton button:hover {
+    color: white;
+    background-color: green;
+    text-decoration: underline;
+}
+
+.end {
+    margin: 50px auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.end h1 {
+    color: brown;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+
+.end p {
+    font-size: 25px;
+}
+
+#department {
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: -240px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.one {
+    border: 7px solid green;
+    width: 350px;
+    background-color: lightblue;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.one img {
+    border-radius: 25px;
+    margin: 20px 0px 0px 15px;
+}
+
+.one img:hover {
+    box-shadow: 5px 5px 5px 5px green;
+}
+
+#department h1 {
+    text-align: center;
+    color: red;
+}
+
+#department p {
+    text-align: center;
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+}
+
+.book button {
+    align-items: center;
+    margin-left: 80px;
+    width: 180px;
+    height: 50px;
+    color: green;
+    background-color: yellow;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.book button:hover {
+    color: white;
+    background-color: green;
+    text-decoration: underline;
+}
+
+#department1 {
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: 340px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#department1 h1 {
+    text-align: center;
+    color: red;
+}
+
+#department1 p {
+    text-align: center;
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+}
+
+#department2 {
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: -250px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#department2 h1 {
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
+
+#department2 p {
+    text-align: center;
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+}
+
+
+.footer {
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+    margin-top: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .email {
+    text-align: center;
+}
+
+.footer .email a {
+    color: blue;
+    font-size: 25px;
+}
+
+.footer .menu a {
+    color: blue;
+    font-size: 20px;
+}
+
+.copyright{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background-color: grey;
+    font-size: 20px;
+    align-items: center;
+}
